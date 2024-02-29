@@ -120,7 +120,7 @@ button:focus {
 .nav-link:hover,
 .nav-link:focus {
     color: #404bbf;
-    transition: 250ms;
+    transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -158,7 +158,7 @@ button:focus {
 .address-link:hover,
 .address-link:focus {
     color: #404bbf;
-    transition: 250ms;
+    transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
