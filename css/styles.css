@@ -88,7 +88,6 @@ button:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
-
 }
 
 .logo {
@@ -113,7 +112,22 @@ button:focus {
 }
 
 .nav-link {
+    position: relative;
     padding: 24px 0;
+    color: #404bbf;
+}
+
+.nav-link::after{
+    position: absolute;
+    content:"";
+    width: 100%;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .address {
