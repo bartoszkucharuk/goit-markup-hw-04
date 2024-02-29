@@ -114,13 +114,13 @@ button:focus {
 .nav-link {
     position: relative;
     padding: 24px 0;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
 .nav-link:hover,
 .nav-link:focus {
     color: #404bbf;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
  .current {
@@ -154,10 +154,13 @@ button:focus {
     gap: 40px;
 }
 
+.address-link {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .address-link:hover,
 .address-link:focus {
     color: #404bbf;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* section 1: HERO */
