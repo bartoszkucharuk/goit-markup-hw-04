@@ -117,19 +117,26 @@ button:focus {
     color: #404bbf;
 }
 
-.nav-link::after{
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #404bbf;
+}
+
+ .current {
+     position: relative;
+     color: #404bbf;
+ }
+
+ .current::after { 
     position: absolute;
-    content:"";
+    content: "";
     width: 100%;
     left: 0;
     bottom: -1px;
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
-}
-
-.nav-link:hover {
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address {
