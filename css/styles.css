@@ -114,7 +114,6 @@ button:focus {
 .nav-link {
     position: relative;
     padding: 24px 0;
-    color: #404bbf;
 }
 
 
@@ -153,6 +152,11 @@ button:focus {
 .address-ul {
     display: flex;
     gap: 40px;
+}
+
+.addres-link {
+    color: #404bbf;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* section 1: HERO */
