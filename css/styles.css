@@ -71,7 +71,7 @@ button:focus {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.header-main .container {
+.header-main > .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -184,7 +184,7 @@ button:focus {
         max-width: 1440px;
 }
 
-.hero .container {
+.hero > .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -231,11 +231,11 @@ button:focus {
     color: #434455;
 }
 
-.features .container {
+.features > .container {
     width: 1158px;
 }
 
-.features-icon {
+.features-item > .container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -245,7 +245,7 @@ button:focus {
     margin-bottom: 8px;
 }
 
-.fetures-icon svg {
+.fetures-icon {
     width: 64px;
     height: 64px;
 }
