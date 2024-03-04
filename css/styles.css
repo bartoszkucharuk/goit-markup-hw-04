@@ -120,7 +120,8 @@ button:focus {
 .nav-link:hover,
 .nav-link:focus {
     color: #404bbf;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
  .current {
@@ -157,7 +158,8 @@ button:focus {
 .address-link:hover,
 .address-link:focus {
     color: #404bbf;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 /* section 1: HERO */
@@ -219,7 +221,8 @@ button:focus {
 
 .hero-button:hover {
     background-color: rgba(64, 75, 191, 1);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 /* section 2 - FEATURES*/
 .features {
