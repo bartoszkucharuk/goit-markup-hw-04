@@ -344,6 +344,7 @@ button:focus {
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
+    padding-bottom: 8px;
 }
 
 .socials-list {
