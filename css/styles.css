@@ -420,9 +420,9 @@ button:focus {
 },
 
 
-.card-image {
-    width: 360px;
-    height: 300px;
+.card-image-wrapper {
+    position: relative;
+    overflow: hidden;
 }
 
 .card-description {
