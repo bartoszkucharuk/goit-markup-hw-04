@@ -471,6 +471,12 @@ button:focus {
     padding: 100px 0;
 }
 
+.footer > container {
+    display: block;
+    align-items: baseline;
+    margin-right: 120px;
+}
+
 .footer a {
     display: inline-block;
     margin-bottom: 16px;
@@ -480,7 +486,29 @@ button:focus {
 }
 
 .footer-text {
-    color: #f4f4fd;}
+    color: #f4f4fd;
+}
+
+.footer-socials-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.footer-socials-list {
+    display: flex;
+    gap: 16px;
+
+}
+
+.footer-socials-item {
+    width: 40px;
+    height: 40px;
+}
+
 
 footer a:hover,
 footer a:focus {
