@@ -472,7 +472,7 @@ button:focus {
 }
 
 .footer .container {
-    display: block;
+    display: flex;
     align-items: baseline;
     margin-right: 120px;
 }
