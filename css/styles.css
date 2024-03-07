@@ -471,7 +471,7 @@ button:focus {
     padding: 100px 0;
 }
 
-.footer > container {
+.footer container {
     display: block;
     align-items: baseline;
     margin-right: 120px;
