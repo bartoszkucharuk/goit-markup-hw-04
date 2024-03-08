@@ -351,6 +351,8 @@ button:focus {
     display: flex;
     justify-content: center;
     gap: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .socials-item {
