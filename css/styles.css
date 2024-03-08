@@ -511,6 +511,28 @@ button:focus {
     height: 40px;
 }
 
+.footer-socials-link {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer-socials-link a:hover, 
+.footer-socials-link a:focus {
+    background-color: #31d0aa;
+}
+
+.footer-socials-icon {
+    width: 24px;
+    height: 24px;
+    fill: #f4f4fd;
+}
+
 
 footer a:hover,
 footer a:focus {
